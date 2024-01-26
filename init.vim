@@ -7,6 +7,8 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'leafgarland/typescript-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'othree/html5.vim'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'romgrk/barbar.nvim'
 Plug 'APZelos/blamer.nvim'
 Plug 'nvim-lua/plenary.nvim'
