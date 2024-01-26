@@ -40,9 +40,11 @@ autocmd VimEnter * NERDTree
 
 
 
-
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] "Hide files in .gitignore
+let g:ctrlp_show_hidden = 1     
 colorscheme onedark
 
+nmap <leader>rn <Plug>(coc-rename)
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 noremap <leader>g :noh<cr>:call clearmatches()<cr>
 inoremap <silent><expr> <TAB>
